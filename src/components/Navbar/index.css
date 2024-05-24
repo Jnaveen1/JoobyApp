@@ -1,0 +1,33 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #272727;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.unordered-list-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.image-logo {
+  height: 50px;
+  width: fit-content;
+}
+.button {
+  color: white;
+  background-color: #4f46e5;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.link-container {
+  text-decoration: none;
+}
+.list-item {
+  color: white;
+  margin-left: 20px;
+}

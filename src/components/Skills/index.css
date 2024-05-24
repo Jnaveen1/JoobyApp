@@ -1,0 +1,16 @@
+.skill-list-con {
+  display: flex;
+  flex-direction: row;
+  /* margin-right: 70px; */
+  align-items: center;
+  margin-bottom: 40px;
+  width: 35%;
+}
+.skill-img {
+  margin-right: 15px;
+  height: 50px;
+  width: 50px;
+}
+.skill-name {
+  color: white;
+}

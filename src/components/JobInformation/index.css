@@ -1,0 +1,48 @@
+.description-link-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.skills-heading {
+  color: white;
+  font-size: 20px;
+}
+.unordered-skill-con {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  margin: 0px;
+  padding: 0px;
+}
+.life-at-company {
+  color: white;
+  font-size: 20px;
+}
+.life-at-con {
+  display: flex;
+  flex-direction: row;
+
+  color: white;
+}
+.lifeAt-img {
+  height: 200px;
+  width: 200px;
+  margin-left: 15px;
+}
+.link {
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .lifeAt-img {
+    height: 100px;
+    width: 100px;
+    margin-left: 15px;
+  }
+  .life-at-company {
+    color: white;
+    font-size: 16px;
+  }
+}

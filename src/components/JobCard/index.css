@@ -1,0 +1,83 @@
+.job-card-container {
+  background-color: #272727;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  list-style-type: none;
+}
+.sub-container1 {
+  display: flex;
+  flex-direction: row;
+}
+.rate-title-con {
+  margin-left: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sub-container2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.package {
+  margin-left: auto;
+  align-self: flex-end;
+  color: white;
+}
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+}
+.para {
+  margin-left: 4px;
+  color: white;
+}
+.style-color {
+  color: white;
+}
+.description-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: white;
+}
+.description-para {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: white;
+}
+.company-logo {
+  height: 60px;
+  width: 60px;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 0;
+}
+
+.react-icon {
+  color: white;
+}
+
+.link-item {
+  text-decoration: none;
+}
+.horizontal-line {
+  text-decoration: none;
+  color: white;
+  background-color: white;
+}
+.star-con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.star-icon {
+  color: #fbbf24;
+  margin-right: 5px;
+}

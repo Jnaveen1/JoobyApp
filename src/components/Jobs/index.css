@@ -1,0 +1,117 @@
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #000000;
+}
+.job-main-container {
+  background-color: #000000;
+  min-height: 100vh;
+}
+.profile-container {
+  min-width: 30%;
+  background-color: transparent;
+  padding: 10px;
+  margin-left: 10px;
+}
+.profile-inf {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  border-radius: 10px;
+  background-size: cover;
+  padding: 10px;
+  margin-left: 20px;
+  /* background-repeat: no-repeat; */
+}
+.profile-img {
+  height: 50px;
+  width: 50px;
+  margin-top: 15px;
+  margin-left: 8px;
+}
+.name {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #6366f1;
+  margin-left: 8px;
+}
+.bio {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #2c364c;
+  margin-right: 5px;
+  margin-left: 8px;
+}
+.retry-btn {
+  color: white;
+  background-color: #4f46e5;
+  padding: 8px;
+}
+.heading {
+  font-size: 14px;
+  color: white;
+}
+.form-con {
+  color: white;
+  margin-left: 20px;
+}
+
+.jobs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
+  width: fit-content;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.input {
+  border: none;
+  color: #64748b;
+}
+.search-icon {
+  border: none;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.loader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.no-job-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 20px;
+}
+.no-job-img {
+  width: 50%;
+  height: fit-content;
+}
+
+@media (max-width: 767px) {
+  .sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000000;
+  }
+}
+.unordered-type-list {
+  margin: 0px;
+  padding: 0px;
+}
